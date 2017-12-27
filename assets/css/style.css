@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+/* BASICS */
+
+body, .container {
+  height: 100%;
+  overflow: auto;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  background: #222222 url("https://i.imgur.com/cbbBr5y.jpg") no-repeat left top;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  margin:auto;
+  margin-top: 8%;
+}
+
+ol, ul {
+	list-style: none;
+}
+	
+article, nav {
+  display: block;
+}
+
+body, input, select, textarea {
+	color: #ffffff;
+	font-size: 1rem;
+}
+	
+a {
+	-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+  color: Coral;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* HEADER */
+
+h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size:3rem;
+  text-transform: uppercase;
+}
+
+header {
+  border-top: 1px solid white;
+  border-bottom:1px solid white;
+  padding: 2rem;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  overflow: auto;
+  max-width: 90%
+}
+
+/* MAIN */
+
+
+
+/* NAVIGATION */
+
+.navigation {
+  text-transform: uppercase;
+}
+
+.navigation p {
+  padding: .2rem;
+  margin: .5rem;
+  border: 1px solid white;
+  text-align: center;
+  width: 8rem;
+  margin: 1rem auto;
+}
+
+/* FOOTER */
+
+footer {
+  color: LightGrey;
+}
