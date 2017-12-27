@@ -2,16 +2,16 @@
 
 /* BASICS */
 
-body, .container {
+body {
   height: 100%;
   overflow: auto;
-  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   background: #222222 url("https://i.imgur.com/cbbBr5y.jpg") no-repeat left top;
   background-size: cover;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   color: white;
   text-align: center;
   margin:auto;
-  margin-top: 8%;
+  margin-top: 5%;
 }
 
 ol, ul {
